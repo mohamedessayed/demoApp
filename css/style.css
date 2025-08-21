@@ -1,8 +1,31 @@
-
-.text-tomato{
-    color: rgb(0,18,56);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.bg-yellow{
-    background-color: yellow;
+.pages{
+    width: 80%;
+    list-style: none;
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.pages .nav-item{
+    float: right;
+    margin-left: 5px;
+}
+
+
+.float-left{
+    float: left;
+}
+
+.clear{
+    clear: both;
 }
