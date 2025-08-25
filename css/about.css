@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+
+.tomato{
+    background-color: tomato;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.lightGray{
+    background-color: rgb(226, 228, 230);
+}
+
+.logo{
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.pages{
+    width: 80%;
+    list-style: none;
+    float: left;
+}
+
+.pages ul {
+    list-style: none;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.pages ul li{
+    float: left;
+    padding: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.about,
+.about-image{
+    width: 50%;
+    float: left;
+}
+
+.about h1{
+    text-transform: capitalize;
+}
+
+.about-image{
+    text-align: center;
+}
+
+.about-image img{
+    width: 200px;
+}
+
+
+.about-card{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 16px;
+}
+
+.about-card .card-outline{
+    padding: 18px;
+    border-radius: 16px;
+}
+
+.about-card h2{
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+footer p {
+    text-align: center;
+    padding: 18px;
+    
+}
+
+.conatiner{
+    width: 80%;
+    margin: auto;
+}
+
+.about-seaction{
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.contact-section{
+    text-align: center;
+    padding: 150px;
+    color: white;
+    background-image: url(./../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-section p {
+    margin-bottom: 16px;
+}
+
+.contact-section button {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
