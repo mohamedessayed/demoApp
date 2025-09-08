@@ -115,3 +115,32 @@
 .clear{
     clear: both;
 }
+
+
+@media screen and (max-width:570px){
+    .card{
+    width: 100%;
+    float: none;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:570.01px) and (max-width:790px){
+    .card{
+    width: 50%;
+    }
+
+    .container{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:790.01px) and (max-width:992px) {
+    .card{
+        width: 50%;
+    }
+}
