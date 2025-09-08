@@ -1,0 +1,43 @@
+.parent{
+    background-color: aliceblue;
+    height: 100Vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+
+
+    
+}
+.child{
+    height: 300px;
+    width: 20%;
+    
+    flex-shrink: 1;
+    flex-grow: 0;
+    order: 0;
+
+
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+
+.bg-teal{
+    background-color: teal;
+
+}
+
+.bg-red{
+    background-color: red;
+
+}
+
+.bg-blue{
+    background-color: blue;
+}
