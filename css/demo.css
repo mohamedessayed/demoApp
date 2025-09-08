@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+.members-heading{
+    text-align: center;
+}
+
+.members-heading h2{
+    text-transform: capitalize;
+    margin: 16px 0px;
+}
+
+.members-heading p{
+    color: #777;
+    font-size: 18px;
+    margin: 0px 0px 16px;
+}
+
+.card{
+    width: 25%;
+    float: left;
+    padding: 8px;
+    
+}
+
+.card .member-image{
+    overflow: hidden;
+}
+
+.card .member-image img{
+    width: 100%;
+    transition: all ease-in-out 1s;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.card h3{
+    margin: 16px 0px 8px;
+    padding:0px 8px;
+}
+
+.card h4{
+    color: #777;
+    padding:0px 8px 8px;
+}
+
+.card .card-detials{
+    background-color: aliceblue;
+    border-bottom: 2px solid #0000ff7b;
+    border-radius: 8px;
+}
+
+.card .member-image img:hover{
+    transform: scale(1.2);
+}
+
+.clear{
+    clear: both;
+}

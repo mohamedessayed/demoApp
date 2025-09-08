@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(242, 245, 246);
+    padding: 16px;
+}
+
+.product-card {
+    margin-bottom: 24px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.card-image{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.card-image .news{
+    background-color: #a52a2a;
+    color: #fff;
+    padding: 12px 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card-image .discount{
+    background-color: #09c;
+    color: #fff;
+    padding: 12px 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card-details{
+    width: 72%;
+    float: left;
+    margin-left: 3%;
+    padding: 16px;
+    background-color: rgb(232, 232, 232);
+}
+
+
+.card-details .price{
+    color: #09c;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-details .product-name{
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
+
+.card-details .product-description{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #686666;
+}
+
+.card-details .store-options{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.card-details .store-options li{
+    float: left;
+    background-color: #ebdada;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.card-details .store-options li a{
+
+    color: #222;
+}
+
+.card-details .rating {
+    margin-bottom: 16px;
+}
+
+.card-details .rating .rating-stars ,
+.card-details .rating .reviews
+{
+    float: left;
+    margin: 8px;
+}
+
+
+.color-side,
+.size-side{
+    list-style: none;
+}
+
+.color-side li,
+.size-side li
+{
+    float: left;
+    margin-left: 1%;
+}
+
+.color-section ,
+.size-section ,
+.qyt-side 
+{
+    width: 33.33%;
+    float: left;
+    text-align: left;
+}
