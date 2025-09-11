@@ -5,6 +5,8 @@
 .title{
     transition: all 1s ease-in-out;
     position: relative;
+
+    text-shadow: 10px -10px 10px #09b;
 }
 
 /* .title::after{
@@ -53,19 +55,12 @@
 
 
 .skew{
-    height: 500px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
     position: relative;
     overflow: hidden;
     background-color: tomato;
+    box-shadow: 5px 5px 30px #b2acac;
 }
 
-.skew::after{
-    content: '';
-    height: 200px;
-    background-color: #fff;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    transform: skew(3deg,-5deg) translate(0px,25px);
-}
