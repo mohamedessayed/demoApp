@@ -1,0 +1,60 @@
+.title::after{
+    transition:all 2s ease-in-out;
+    animation: titleWordsCount 3s ease-in-out infinite alternate;
+    content: ' |';
+}
+
+.demo{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: turquoise;
+}
+
+
+
+
+
+@keyframes titleWordsCount {
+    0%{content: ' |';}
+    2%{content: ' W|';}
+    5%{content: ' We|';}
+    7%{content: ' Web|';}
+    10%{content: ' Web |';}
+    12%{content: ' Web D|';}
+    15%{content: ' Web De|';}
+    17%{content: ' Web Dev|';}
+    20%{content: ' Web Deve|';}
+    22%{content: ' Web Devel|';}
+    25%{content: ' Web Develo|';}
+    27%{content: ' Web Develop|';}
+    30%{content: ' Web Develope|';}
+    32%{content: ' Web Developer|';}
+    35%{content: ' Web Develope|';}
+    37%{content: ' Web Develop|';}
+    40%{content: ' Web Develo|';}
+    42%{content: ' Web Devel|';}
+    45%{content: ' Web Deve|';}
+    47%{content: ' Web Dev|';}
+    50%{content: ' Web De|';}
+    52%{content: ' Web D|';}
+    55%{content: ' Web |';}
+    57%{content: ' Web D|';}
+    60%{content: ' Web De|';}
+    62%{content: ' Web Des|';}
+    65%{content: ' Web Desi|';}
+    67%{content: ' Web Desig|';}
+    70%{content: ' Web Design|';}
+    72%{content: ' Web Designe|';}
+    75%{content: ' Web Designer|';}
+    77%{content: ' Web Designe|';}
+    80%{content: ' Web Design|';}
+    82%{content: ' Web Desig|';}
+    85%{content: ' Web Desi|';}
+    87%{content: ' Web Des|';}
+    90%{content: ' Web De|';}
+    72%{content: ' Web|';}
+    95%{content: ' We|';}
+    97%{content: ' W|';}
+    100%{content: ' |';}
+}
